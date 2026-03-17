@@ -1,0 +1,17 @@
+theme = 'ananke'
+baseURL = 'https://localhost:1313/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+
+[deployment]
+  confirm = false
+  dryRun = false
+  force = false
+  invalidateCDN = true
+  maxDeletes = 256
+  target = ''
+  workers = 10
+
+[caches]
+  [cache.images]
+    dir = ':cacheDir/images'
