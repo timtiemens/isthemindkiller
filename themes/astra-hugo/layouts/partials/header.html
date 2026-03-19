@@ -1,0 +1,13 @@
+
+<header>
+  <div class="logo">
+    <a href="/">Fear Is The Mind Killer</a>
+  </div>
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

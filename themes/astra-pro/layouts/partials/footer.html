@@ -1,0 +1,10 @@
+
+<footer>
+  <div class="container">
+    <div class="footer-widgets">
+      {{ if .Site.Params.footerWidget1 }}<div>{{ .Site.Params.footerWidget1 | safeHTML }}</div>{{ end }}
+      {{ if .Site.Params.footerWidget2 }}<div>{{ .Site.Params.footerWidget2 | safeHTML }}</div>{{ end }}
+    </div>
+    <p>&copy; {{ now.Year }} {{ .Site.Title }}</p>
+  </div>
+</footer>

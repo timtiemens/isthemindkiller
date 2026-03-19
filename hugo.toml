@@ -1,7 +1,14 @@
-theme = 'ananke'
 baseURL = 'https://localhost:1313/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Fear Is The Mind Killer'
+
+theme = 'astra-pro'
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [deployment]
   confirm = false

@@ -1,10 +1,4 @@
 
-<!DOCTYPE html>
-<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<meta charset="utf-8">
-<title>THIS IS baseof.html Categories</title>
-<style>
-
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap');
 
 :root {
@@ -77,61 +71,3 @@ nav ul { list-style:none; padding:0; margin:0; display:flex; gap:20px; }
   #mobile-drawer{ display:none; background:#f9f9f9; padding:10px; }
   #mobile-drawer.open{ display:block; }
 }
-
-</style>
-<script src="/js/mobile.js"></script>
-
-</head>
-<body>
-
-<header>
-  <div class="logo"><a href="/">Fear Is The Mind Killer</a></div>
-
-  <div id="mobile-menu">☰ Menu</div>
-
-  <nav>
-    <ul>
-      
-    </ul>
-  </nav>
-
-  <div id="mobile-drawer">
-    <ul>
-      
-    </ul>
-  </div>
-</header>
-
-
-<div class="container">
-<div class="wrapper">
-  
-
-  <div class="content-area">
-    
-<h1>Categories</h1>
-<ul>
-
-<li><a href="/categories/uncategorized/">Uncategorized</a></li>
-
-</ul>
-
-  </div>
-
-  
-</div>
-</div>
-
-
-<footer>
-  <div class="container">
-    <div class="footer-widgets">
-      
-      
-    </div>
-    <p>&copy; 2026 Fear Is The Mind Killer</p>
-  </div>
-</footer>
-
-</body>
-</html>

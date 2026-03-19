@@ -2,16 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
-    <lastmod>2026-03-16T22:08:45-05:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2022-04-09T00:32:25+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-16T22:08:45-05:00</lastmod>
+    <lastmod>2022-04-09T00:32:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/feeling-afraid-is-acceptable/</loc>
+    <lastmod>2022-04-09T00:32:25+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-03-16T22:08:45-05:00</lastmod>
+    <lastmod>2022-04-09T00:32:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/uncategorized/</loc>
+    <lastmod>2022-04-09T00:32:25+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/stupidity/</loc>
+    <lastmod>2021-06-20T19:56:58+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/two-wolves/</loc>
+    <lastmod>2021-05-02T22:49:59+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/extremism/</loc>
+    <lastmod>2021-04-05T20:42:56+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/litany-against-fear/</loc>
+    <lastmod>2021-03-08T19:17:38+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2021-03-08T18:10:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/references/</loc>
+    <lastmod>2021-03-08T18:10:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

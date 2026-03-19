@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <div class="custom-background">
+  {{ range .Site.RegularPages }}
+    <article>
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p>{{ .Content }}</p>
+      <a href="{{ .Permalink }}">Read More</a>
+    </article>
+  {{ end }}
+  </div>
+{{ end }}
+

@@ -1,151 +1,260 @@
+
 <!DOCTYPE html>
-<html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>My New Hugo Project</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
-    <meta name="generator" content="Hugo 0.158.0">
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
+<html><head>
+	<meta name="generator" content="Hugo 0.158.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<title>Fear Is The Mind Killer</title>
+<style>
 
-    
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Merriweather:wght@300;400;700&display=swap');
+
+:root {
+  --accent: {{ .Site.Params.accentColor }};
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  margin:0;
+  color:#333;
+  line-height:1.7;
+}
+
+.custom-background {
+    background-image: url("/img/defaultbodybg.jpg");
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll
+}
 
 
+h1,h2,h3,h4,h5 { font-family:'Merriweather', serif; }
 
+.container {
+  max-width: {{ .Site.Params.containerWidth }};
+  margin:0 auto;
+  padding:20px;
+}
 
-    
+/* BUTTONS */
+button, .btn {
+  background: var(--accent);
+  padding:10px 18px;
+  color:white;
+  border:none;
+  border-radius:4px;
+  text-decoration:none;
+}
 
+/* SIDEBAR */
+.wrapper {
+  display:flex;
+  gap:30px;
+}
+.sidebar {
+  width:250px;
+}
+.content-area {
+  flex:1;
+}
 
-    
+/* HEADER */
+header {
+  padding:20px 40px;
+}
+nav {
+  border-top:1px solid #ddd;
+  margin-top:10px;
+}
+nav ul { list-style:none; padding:0; margin:0; display:flex; gap:20px; }
+
+/* MOBILE */
+#mobile-menu {
+  display:none;
+}
+@media(max-width:700px){
+  nav ul { display:none; }
+  #mobile-menu{ display:block; cursor:pointer; }
+  #mobile-drawer{ display:none; background:#f9f9f9; padding:10px; }
+  #mobile-drawer.open{ display:block; }
+}
+
+</style>
+<script src="/js/mobile.js"></script>
+
+</head>
+<body>
+
+<header>
+  <div class="logo"><a href="/">Fear Is The Mind Killer</a></div>
+
+  <div id="mobile-menu">☰ Menu</div>
+
+  <nav>
+    <ul>
       
+    </ul>
+  </nav>
 
-    
-
-    
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Project" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Project" />
+  <div id="mobile-drawer">
+    <ul>
       
-    
-
-    
-      <link rel="canonical" href="http://localhost:1313/">
-    
-
-    
-    
-    <meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="My New Hugo Project">
-  <meta property="og:title" content="My New Hugo Project">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
-
-  <meta itemprop="name" content="My New Hugo Project">
-  <meta itemprop="datePublished" content="2026-03-16T22:08:45-05:00">
-  <meta itemprop="dateModified" content="2026-03-16T22:08:45-05:00">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="My New Hugo Project">
-
-	
-  </head><body class="ma0 avenir bg-near-white development is-home">
-    
-
-  <header>
-    <div class="pb3-m pb6-l bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        My New Hugo Project
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-      <div class="ananke-socials"></div>
-
-    </div>
+    </ul>
   </div>
-</nav>
-
-      <div class="tc-l pv3 ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
-          My New Hugo Project
-        </h1>
-        
-      </div>
-    </div>
-  </header>
+</header>
 
 
-    <main class="pb7" role="main">
-      <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
+<div class="container">
+<div class="wrapper">
+  
+
+  <div class="content-area">
     
-  </article>
-
+  <div class="custom-background">
   
+    <article>
+      <h2><a href="http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/">Feeling afraid is acceptable</a></h2>
+      <p><blockquote>
+Feeing afraid is acceptable,
+<p>but letting it affect your actions is not.</p>
+<ul>
+<li>L. E. Modesitt Jr., The Towers of the Sunset, pg 330</li>
+</ul>
+</blockquote>
+<p>Train yourself to recognize your fears and set them aside.</p>
+<p> </p>
+<p>This is just a re-statement of the <a href="/2021/03/08/litany-against-fear/">Litany Against Fear</a>. After all, you will feel fear - but you must recognize it, and repeat the Litany until the fear has gone past.</p>
+</p>
+      <a href="http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/">Read More</a>
+    </article>
   
-  
-  
-  
-
-  
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="w-100 mb4 relative">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l dark-gray no-underline">
-    <div class="flex-column flex-row-ns flex">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/my-first-post/" class="color-inherit dim link">
-            fear.isthemindkiller.com First Post
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="introduction">Introduction</h2>
-<p>This is getting replaced, hopefully?</p>
-        </div>
-        <a href="/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-      </div>
-    </div>
+    <article>
+      <h2><a href="http://localhost:1313/posts/2021/06/20/stupidity/">Stupidity</a></h2>
+      <p><!-- wp:group -->
+<div class="wp-block-group">
+  <div class="wp-block-group__inner-container">
+    <!-- wp:html -->
+    <p>"Against stupidity, the gods themselves contend in vain."<br>
+    -- Isaac Asimov<br>
+    -- Friedrich Schiller</p>
+    <!-- /wp:html -->
   </div>
-</article>
-
-          </div>
-        
-      </section>
-
-      
-
-    </div>
-  
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
-    &copy;  My New Hugo Project 2026 
-  </a>
-    <div><div class="ananke-socials"></div>
 </div>
+<!-- /wp:group -->
+<!-- wp:paragraph -->
+<p>When comparing stupidity to ignorance, ignorance is by far to be preferred.  Ignorance has an easy cure - exposure.  Once you've read and understood <a href="https://en.wikipedia.org/wiki/Wronger_than_wrong">"More Wrong Than Wrong</a>" and "Just winning an argument does not make you right", your world has expanded for the better.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Unless, of course, you are inflicted with the stupidity disease.  If you continue to argue that "Evolution has flaws and so does intelligent design, so they are both equal." or "You must wear a mask or you will kill Nana.", you have been inflicted with stupidity.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>You may be winning arguments by using the "<a href="https://en.wikipedia.org/wiki/Appeal_to_emotion">Appeal to Emotion</a>" fallacy (or by using other <a href="https://en.wikipedia.org/wiki/Informal_fallacy">informal fallacies</a>), but that doesn't make you right.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>"All animals are under stringent selection pressure to be as stupid as they can get away with."<br>
+  &nbsp;&nbsp;  -- Peter Watts, "<a href="https://smile.amazon.com/Echopraxia-Firefall-Book-Peter-Watts-ebook/dp/B00IHCBDJ0/">"Echophraxia"</a><br>
+  &nbsp;&nbsp;  -- <a href="https://quotes.pub/q/all-animals-are-under-stringent-selection-pressure-to-be-as--430490">Pete Richerson and Robert Boyd</a></p>
+<!-- /wp:paragraph -->
+</p>
+      <a href="http://localhost:1313/posts/2021/06/20/stupidity/">Read More</a>
+    </article>
+  
+    <article>
+      <h2><a href="http://localhost:1313/posts/2021/05/02/two-wolves/">Two Wolves</a></h2>
+      <p><!-- wp:heading -->
+<h2>The Story of Two Wolves</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>An old Cherokee is teaching his grandson about life.  <em>"A fight is going on inside you, he said to the boy.  It is a terrible fight and it is between two wolves.  One is evil - he is anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego."</em></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>He continued,<em>"The other is good - he is joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith.  The same fight is going on inside me, and inside every other person, too.</em>"</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The grandson thought about it for a minute and then asked his grandfather,&nbsp;<em>"Which wolf will win?"</em></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The old Cherokee simply replied,&nbsp;<em>"The one you feed."</em></p>
+<!-- /wp:paragraph -->
+</p>
+      <a href="http://localhost:1313/posts/2021/05/02/two-wolves/">Read More</a>
+    </article>
+  
+    <article>
+      <h2><a href="http://localhost:1313/posts/2021/04/05/extremism/">Extremism</a></h2>
+      <p><!-- wp:paragraph -->
+<p>The biggest advantage of extremism is that it makes you feel good, because it provides you with enemies.  Let me explain.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>The great thing about having enemies is that you can pretend that all the badness in the whole world is in your enemies, and all the goodness in the whole world is in you.  Attractive, isn't it?</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>So, if you have a lot of anger and resentment in you anyway, and you therefore enjoy abusing people, then you can pretend that you're only doing it because these enemies of yours are such very bad persons, and if it wasn't for them, you'd actually be good-natured and courteous and rational all the time.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>So, if you want to feel good, become an extremist.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>You can be as nasty as you like, and yet feel your behavior is morally justified.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>So you can strut around abusing people and telling them you could eat them for breakfast and still think of yourself as a champion of the truth, a fighter for the greater good, and not the rather sad, paranoid schizoid that you really are.</p>
+<!-- /wp:paragraph -->                                                                                          
+<!-- wp:paragraph -->
+<p>-- John Cleese, 1987</p>
+<!-- /wp:paragraph -->
+</p>
+      <a href="http://localhost:1313/posts/2021/04/05/extremism/">Read More</a>
+    </article>
+  
+    <article>
+      <h2><a href="http://localhost:1313/posts/2021/03/08/litany-against-fear/">Litany Against Fear</a></h2>
+      <p><!-- wp:paragraph --><p>I must not fear.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>Fear is the mind-killer.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>Fear is the little-death that brings total obliteration.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>I will face my fear.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>I will permit it to pass over me and through me.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>And when it has gone past I will turn the inner eye to see its path.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>Where the fear has gone there will be nothing. </p><!-- /wp:paragraph -->
+<!-- wp:paragraph --><p>Only I will remain.</p><!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>- <strong>Frank Herbert, </strong><a href="https://smile.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/">Dune</a></p>
+<!-- /wp:paragraph -->
+</p>
+      <a href="http://localhost:1313/posts/2021/03/08/litany-against-fear/">Read More</a>
+    </article>
+  
+    <article>
+      <h2><a href="http://localhost:1313/pages/references/">References</a></h2>
+      <p><p>References page...</p>
+<!-- wp:paragraph -->
+<p>"Fear is the mind killer" is a quote from Dune, by Frank Herbert.</p>
+<!-- /wp:paragraph -->
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><p>I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.</p><cite>-- Frank Herbert</cite></blockquote>
+<!-- /wp:quote -->
+<!-- wp:paragraph --></p>
+      <a href="http://localhost:1313/pages/references/">Read More</a>
+    </article>
+  
+  </div>
+
+  </div>
+
+  
+</div>
+</div>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-widgets">
+      
+      
+    </div>
+    <p>&copy; 2026 Fear Is The Mind Killer</p>
   </div>
 </footer>
 
-  </body>
+</body>
 </html>

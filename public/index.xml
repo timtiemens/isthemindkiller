@@ -1,19 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Project</title>
+    <title>Fear Is The Mind Killer</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Project</description>
+    <description>Recent content on Fear Is The Mind Killer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2026 22:08:45 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 09 Apr 2022 00:32:25 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fear.isthemindkiller.com First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 16 Mar 2026 22:08:45 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is getting replaced, hopefully?&lt;/p&gt;</description>
+      <title>Feeling afraid is acceptable</title>
+      <link>http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/</link>
+      <pubDate>Sat, 09 Apr 2022 00:32:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/</guid>
+      <description>&lt;blockquote&gt;&#xA;Feeing afraid is acceptable,&#xA;&lt;p&gt;but letting it affect your actions is not.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;L. E. Modesitt Jr., The Towers of the Sunset, pg 330&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Train yourself to recognize your fears and set them aside.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;This is just a re-statement of the &lt;a href=&#34;http://localhost:1313/2021/03/08/litany-against-fear/&#34;&gt;Litany Against Fear&lt;/a&gt;. After all, you will feel fear - but you must recognize it, and repeat the Litany until the fear has gone past.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stupidity</title>
+      <link>http://localhost:1313/posts/2021/06/20/stupidity/</link>
+      <pubDate>Sun, 20 Jun 2021 19:56:58 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/06/20/stupidity/</guid>
+      <description>&lt;!-- wp:group --&gt;&#xA;&lt;div class=&#34;wp-block-group&#34;&gt;&#xA;  &lt;div class=&#34;wp-block-group__inner-container&#34;&gt;&#xA;    &lt;!-- wp:html --&gt;&#xA;    &lt;p&gt;&#34;Against stupidity, the gods themselves contend in vain.&#34;&lt;br&gt;&#xA;    -- Isaac Asimov&lt;br&gt;&#xA;    -- Friedrich Schiller&lt;/p&gt;&#xA;    &lt;!-- /wp:html --&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;!-- /wp:group --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;When comparing stupidity to ignorance, ignorance is by far to be preferred.  Ignorance has an easy cure - exposure.  Once you&#39;ve read and understood &lt;a href=&#34;https://en.wikipedia.org/wiki/Wronger_than_wrong&#34;&gt;&#34;More Wrong Than Wrong&lt;/a&gt;&#34; and &#34;Just winning an argument does not make you right&#34;, your world has expanded for the better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two Wolves</title>
+      <link>http://localhost:1313/posts/2021/05/02/two-wolves/</link>
+      <pubDate>Sun, 02 May 2021 22:49:59 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/05/02/two-wolves/</guid>
+      <description>&lt;!-- wp:heading --&gt;&#xA;&lt;h2&gt;The Story of Two Wolves&lt;/h2&gt;&#xA;&lt;!-- /wp:heading --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;An old Cherokee is teaching his grandson about life.  &lt;em&gt;&#34;A fight is going on inside you, he said to the boy.  It is a terrible fight and it is between two wolves.  One is evil - he is anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego.&#34;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;He continued,&lt;em&gt;&#34;The other is good - he is joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith.  The same fight is going on inside me, and inside every other person, too.&lt;/em&gt;&#34;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extremism</title>
+      <link>http://localhost:1313/posts/2021/04/05/extremism/</link>
+      <pubDate>Mon, 05 Apr 2021 20:42:56 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/04/05/extremism/</guid>
+      <description>&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;The biggest advantage of extremism is that it makes you feel good, because it provides you with enemies.  Let me explain.&lt;/p&gt;&#xA;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;The great thing about having enemies is that you can pretend that all the badness in the whole world is in your enemies, and all the goodness in the whole world is in you.  Attractive, isn&#39;t it?&lt;/p&gt;&#xA;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;So, if you have a lot of anger and resentment in you anyway, and you therefore enjoy abusing people, then you can pretend that you&#39;re only doing it because these enemies of yours are such very bad persons, and if it wasn&#39;t for them, you&#39;d actually be good-natured and courteous and rational all the time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Litany Against Fear</title>
+      <link>http://localhost:1313/posts/2021/03/08/litany-against-fear/</link>
+      <pubDate>Mon, 08 Mar 2021 19:17:38 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021/03/08/litany-against-fear/</guid>
+      <description>&lt;!-- wp:paragraph --&gt;&lt;p&gt;I must not fear.&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&lt;p&gt;Fear is the mind-killer.&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&lt;p&gt;Fear is the little-death that brings total obliteration.&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&lt;p&gt;I will face my fear.&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&lt;p&gt;I will permit it to pass over me and through me.&lt;/p&gt;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:paragraph --&gt;&lt;p&gt;And when it has gone past I will turn the inner eye to see its path.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>References</title>
+      <link>http://localhost:1313/pages/references/</link>
+      <pubDate>Mon, 08 Mar 2021 18:10:26 +0000</pubDate>
+      <guid>http://localhost:1313/pages/references/</guid>
+      <description>&lt;p&gt;References page...&lt;/p&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;&#34;Fear is the mind killer&#34; is a quote from Dune, by Frank Herbert.&lt;/p&gt;&#xA;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:quote --&gt;&#xA;&lt;blockquote class=&#34;wp-block-quote&#34;&gt;&lt;p&gt;I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

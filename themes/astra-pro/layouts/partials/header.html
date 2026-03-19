@@ -1,0 +1,22 @@
+
+<header>
+  <div class="logo"><a href="/">{{ .Site.Title }}</a></div>
+
+  <div id="mobile-menu">☰ Menu</div>
+
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <div id="mobile-drawer">
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</header>
