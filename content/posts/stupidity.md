@@ -2,6 +2,7 @@
 title: "Stupidity"
 date: 2021-06-20T19:56:58Z
 draft: false
+categories: ["Uncategorized"]
 slug: "/2021/06/20/stupidity/"
 ---
 
@@ -10,8 +11,8 @@ slug: "/2021/06/20/stupidity/"
   <div class="wp-block-group__inner-container">
     <!-- wp:html -->
     <p>"Against stupidity, the gods themselves contend in vain."<br>
-    -- Isaac Asimov<br>
-    -- Friedrich Schiller</p>
+    -- Isaac Asimov, "<a href="https://smile.amazon.com/Gods-Themselves-Isaac-Asimov/dp/0553288105/">"The Gods Themselves"</a>, pgs 64-65<br>
+    -- Friedrich Schiller, <a href="https://en.wikipedia.org/wiki/The_Maid_of_Orleans_(play)">"The Maid of Orleans" (play)</a></p>
     <!-- /wp:html -->
   </div>
 </div>

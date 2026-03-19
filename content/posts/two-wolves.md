@@ -11,11 +11,11 @@ slug: "/2021/05/02/two-wolves/"
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>An old Cherokee is teaching his grandson about life.  <em>"A fight is going on inside you, he said to the boy.  It is a terrible fight and it is between two wolves.  One is evil - he is anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego."</em></p>
+<p>An old Cherokee is teaching his grandson about life. <em>"A fight is going on inside you," he said to the boy.  "It is a terrible fight and it is between two wolves.  One is evil - he is anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego."</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>He continued,<em>"The other is good - he is joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith.  The same fight is going on inside me, and inside every other person, too.</em>"</p>
+<p>He continued, <em>"The other is good - he is joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith.  The same fight is going on inside me, and inside every other person, too."</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -25,4 +25,3 @@ slug: "/2021/05/02/two-wolves/"
 <!-- wp:paragraph -->
 <p>The old Cherokee simply replied,&nbsp;<em>"The one you feed."</em></p>
 <!-- /wp:paragraph -->
-

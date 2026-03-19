@@ -1,4 +1,3 @@
-
 ---
 title: "Litany Against Fear"
 date: 2021-03-08T19:17:38Z
@@ -17,6 +16,5 @@ slug: "/2021/03/08/litany-against-fear/"
 <!-- wp:paragraph --><p>Only I will remain.</p><!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>- <strong>Frank Herbert, </strong><a href="https://smile.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/">Dune</a></p>
+<p>― <strong>Frank Herbert, </strong><a href="https://smile.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/">Dune</a></p>
 <!-- /wp:paragraph -->
-

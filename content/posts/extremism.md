@@ -28,8 +28,8 @@ slug: "/2021/04/05/extremism/"
 
 <!-- wp:paragraph -->
 <p>So you can strut around abusing people and telling them you could eat them for breakfast and still think of yourself as a champion of the truth, a fighter for the greater good, and not the rather sad, paranoid schizoid that you really are.</p>
-<!-- /wp:paragraph -->                                                                                          
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph -->
 <p>-- John Cleese, 1987</p>
 <!-- /wp:paragraph -->
-
