@@ -19,4 +19,4 @@ but letting it affect your actions is not.
 
 &nbsp;
 
-This is just a re-statement of the <a href="/2021/03/08/litany-against-fear/">Litany Against Fear</a>. After all, you will feel fear - but you must recognize it, and repeat the Litany until the fear has gone past.
+This is just a re-statement of the <a href="/posts/2021/03/08/litany-against-fear/">Litany Against Fear</a>. After all, you will feel fear - but you must recognize it, and repeat the Litany until the fear has gone past.
