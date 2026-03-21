@@ -3,7 +3,7 @@ title: "Stupidity"
 date: 2021-06-20T19:56:58Z
 draft: false
 categories: ["Uncategorized"]
-slug: "/2021/06/20/stupidity/"
+slug: "/stupidity/"
 ---
 
 <!-- wp:group -->

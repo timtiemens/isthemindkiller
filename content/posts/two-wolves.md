@@ -3,7 +3,7 @@ title: "Two Wolves"
 date: 2021-05-02T22:49:59Z
 draft: false
 categories: ["Uncategorized"]
-slug: "/2021/05/02/two-wolves/"
+slug: "/two-wolves/"
 ---
 
 <!-- wp:heading -->

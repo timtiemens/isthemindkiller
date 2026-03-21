@@ -1,9 +1,15 @@
-baseURL = 'https://localhost:1313/'
+baseURL = 'https://fear.isthemindkiller.com'
 locale = 'en-us'
 title = 'Fear Is The Mind Killer'
 
 theme = 'astra-pro'
 
+[params]
+  sidebar = "right"
+
+[permalinks]
+  [permalinks.page]
+    posts = '/:year/:month/:slug/'
 
 [markup]
   [markup.goldmark]
@@ -18,7 +24,13 @@ theme = 'astra-pro'
   maxDeletes = 256
   target = ''
   workers = 10
-
+  [[deployment.targets]]
+    name = "the-s3-deployment"
+    URL = "s3://fear.isthemindkiller.com"
+    
 [caches]
   [cache.images]
     dir = ':cacheDir/images'
+
+# OLD Route53:
+#   fear.isthemindkiller.com A 54.173.101.214

@@ -17,10 +17,15 @@ body {
   margin:0;
   color:#333;
   line-height:1.7;
+  background-image: url("img/defaultbodybg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.custom-background {
-    background-image: url("/img/defaultbodybg.jpg");
+.custom-background-wrong {
+    background-image: url("img/defaultbodybg.jpg");
     background-position: left top;
     background-size: auto;
     background-repeat: repeat;
@@ -33,7 +38,7 @@ h1,h2,h3,h4,h5 { font-family:'Merriweather', serif; }
 .container {
   max-width: {{ .Site.Params.containerWidth }};
   margin:0 auto;
-  padding:20px;
+  padding: 20px;
 }
 
 /* BUTTONS */
@@ -51,11 +56,23 @@ button, .btn {
   display:flex;
   gap:30px;
 }
+.custom-background, .sidebar {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
 .sidebar {
-  width:250px;
+    padding: 10px;
+}
+.summary {
+    padding: 10px;
 }
 .content-area {
-  flex:1;
+    flex:1;
+    background-image: url("/img/defaultbodybg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;    
 }
 
 /* HEADER */
@@ -113,133 +130,115 @@ nav ul { list-style:none; padding:0; margin:0; display:flex; gap:20px; }
   <div class="custom-background">
   
     <article>
-      <h2><a href="http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/">Feeling afraid is acceptable</a></h2>
-      <p><blockquote>Feeing afraid is acceptable,
+      
+      <h2 class="summary">2022-04-09 <a href="http://localhost:1313/2022/04/feeling-afraid-is-acceptable/">Feeling afraid is acceptable</a></h2>
+      <div class="summary">
+	<blockquote>Feeing afraid is acceptable,
 <p>but letting it affect your actions is not.</p>
 <ul>
-<li>L. E. Modesitt Jr., The Towers of the Sunset, pg 330</blockquote></li>
-</ul>
-<p>Train yourself to recognize your fears and set them aside.</p>
-<p> </p>
-<p>This is just a re-statement of the <a href="http://fear.isthemindkiller.com/2021/03/08/litany-against-fear/">Litany Against Fear</a>. After all, you will feel fear - but you must recognize it, and repeat the Litany until the fear has gone past.</p>
-</p>
-      <a href="http://localhost:1313/posts/2022/04/09/feeling-afraid-is-acceptable/">Read More</a>
+<li>L. E. …</li></ul></blockquote>
+  	<a href="http://localhost:1313/2022/04/feeling-afraid-is-acceptable/">Read More</a>
+      </div>
     </article>
   
     <article>
-      <h2><a href="http://localhost:1313/posts/2021/06/20/stupidity/">Stupidity</a></h2>
-      <p><!-- wp:group -->
+      
+      <h2 class="summary">2021-06-20 <a href="http://localhost:1313/2021/06/stupidity/">Stupidity</a></h2>
+      <div class="summary">
+	<!-- wp:group -->
 <div class="wp-block-group">
   <div class="wp-block-group__inner-container">
     <!-- wp:html -->
     <p>"Against stupidity, the gods themselves contend in vain."<br>
-    -- Isaac Asimov, "<a href="https://smile.amazon.com/Gods-Themselves-Isaac-Asimov/dp/0553288105/">"The Gods Themselves"</a>, pgs 64-65<br>
-    -- Friedrich Schiller, <a href="https://en.wikipedia.org/wiki/The_Maid_of_Orleans_(play)">"The Maid of Orleans" (play)</a></p>
-    <!-- /wp:html -->
-  </div>
-</div>
-<!-- /wp:group -->
-<!-- wp:paragraph -->
-<p>When comparing stupidity to ignorance, ignorance is by far to be preferred.  Ignorance has an easy cure - exposure.  Once you've read and understood <a href="https://en.wikipedia.org/wiki/Wronger_than_wrong">"More Wrong Than Wrong</a>" and "Just winning an argument does not make you right", your world has expanded for the better.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>Unless, of course, you are inflicted with the stupidity disease.  If you continue to argue that "Evolution has flaws and so does intelligent design, so they are both equal." or "You must wear a mask or you will kill Nana.", you have been inflicted with stupidity.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>You may be winning arguments by using the "<a href="https://en.wikipedia.org/wiki/Appeal_to_emotion">Appeal to Emotion</a>" fallacy (or by using other <a href="https://en.wikipedia.org/wiki/Informal_fallacy">informal fallacies</a>), but that doesn't make you right.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>"All animals are under stringent selection pressure to be as stupid as they can get away with."<br>
-  &nbsp;&nbsp;  -- Peter Watts, "<a href="https://smile.amazon.com/Echopraxia-Firefall-Book-Peter-Watts-ebook/dp/B00IHCBDJ0/">"Echophraxia"</a><br>
-  &nbsp;&nbsp;  -- <a href="https://quotes.pub/q/all-animals-are-under-stringent-selection-pressure-to-be-as--430490">Pete Richerson and Robert Boyd</a></p>
-<!-- /wp:paragraph -->
-</p>
-      <a href="http://localhost:1313/posts/2021/06/20/stupidity/">Read More</a>
+    -- …</p></!--></div></div></!-->
+  	<a href="http://localhost:1313/2021/06/stupidity/">Read More</a>
+      </div>
     </article>
   
     <article>
-      <h2><a href="http://localhost:1313/posts/2021/05/02/two-wolves/">Two Wolves</a></h2>
-      <p><!-- wp:heading -->
+      
+      <h2 class="summary">2021-05-02 <a href="http://localhost:1313/2021/05/two-wolves/">Two Wolves</a></h2>
+      <div class="summary">
+	<!-- wp:heading -->
 <h2>The Story of Two Wolves</h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>An old Cherokee is teaching his grandson about life. <em>"A fight is going on inside you," he said to the boy.  "It is a terrible fight and it is between two wolves.  One is evil - he is anger, envy, sorrow, regret, greed, arrogance, self-pity, guilt, resentment, inferiority, lies, false pride, superiority, and ego."</em></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>He continued, <em>"The other is good - he is joy, peace, love, hope, serenity, humility, kindness, benevolence, empathy, generosity, truth, compassion, and faith.  The same fight is going on inside me, and inside every other person, too."</em></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>The grandson thought about it for a minute and then asked his grandfather,&nbsp;<em>"Which wolf will win?"</em></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>The old Cherokee simply replied,&nbsp;<em>"The one you feed."</em></p>
-<!-- /wp:paragraph -->
-</p>
-      <a href="http://localhost:1313/posts/2021/05/02/two-wolves/">Read More</a>
+<p>An old Cherokee is teaching his grandson about life. …</p></!--></!--></!-->
+  	<a href="http://localhost:1313/2021/05/two-wolves/">Read More</a>
+      </div>
     </article>
   
     <article>
-      <h2><a href="http://localhost:1313/posts/2021/04/05/extremism/">Extremism</a></h2>
-      <p><!-- wp:paragraph -->
-<p>The biggest advantage of extremism is that it makes you feel good, because it provides you with enemies.  Let me explain.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>The great thing about having enemies is that you can pretend that all the badness in the whole world is in your enemies, and all the goodness in the whole world is in you.  Attractive, isn't it?</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>So, if you have a lot of anger and resentment in you anyway, and you therefore enjoy abusing people, then you can pretend that you're only doing it because these enemies of yours are such very bad persons, and if it wasn't for them, you'd actually be good-natured and courteous and rational all the time.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>So, if you want to feel good, become an extremist.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>You can be as nasty as you like, and yet feel your behavior is morally justified.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>So you can strut around abusing people and telling them you could eat them for breakfast and still think of yourself as a champion of the truth, a fighter for the greater good, and not the rather sad, paranoid schizoid that you really are.</p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>-- John Cleese, 1987</p>
-<!-- /wp:paragraph -->
-</p>
-      <a href="http://localhost:1313/posts/2021/04/05/extremism/">Read More</a>
+      
+      <h2 class="summary">2021-04-05 <a href="http://localhost:1313/2021/04/extremism/">Extremism</a></h2>
+      <div class="summary">
+	<!-- wp:paragraph -->
+<p>The biggest advantage of extremism is that it makes you feel good, because it …</p></!-->
+  	<a href="http://localhost:1313/2021/04/extremism/">Read More</a>
+      </div>
     </article>
   
     <article>
-      <h2><a href="http://localhost:1313/posts/2021/03/08/litany-against-fear/">Litany Against Fear</a></h2>
-      <p><!-- wp:paragraph --><p>I must not fear.</p><!-- /wp:paragraph -->
+      
+      <h2 class="summary">2021-03-08 <a href="http://localhost:1313/2021/03/litany-against-fear/">Litany Against Fear</a></h2>
+      <div class="summary">
+	<!-- wp:paragraph --><p>I must not fear.</p><!-- /wp:paragraph -->
 <!-- wp:paragraph --><p>Fear is the mind-killer.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>Fear is the little-death that brings total obliteration.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>I will face my fear.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>I will permit it to pass over me and through me.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>And when it has gone past I will turn the inner eye to see its path.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>Where the fear has gone there will be nothing. </p><!-- /wp:paragraph -->
-<!-- wp:paragraph --><p>Only I will remain.</p><!-- /wp:paragraph -->
-<!-- wp:paragraph -->
-<p>― <strong>Frank Herbert, </strong><a href="https://smile.amazon.com/Dune-Chronicles-Book-1/dp/0441013597/">Dune</a></p>
-<!-- /wp:paragraph -->
-</p>
-      <a href="http://localhost:1313/posts/2021/03/08/litany-against-fear/">Read More</a>
+<!-- wp:paragraph --><p>Fear is the little-death that brings …</p></!--></!--></!--></!--></!-->
+  	<a href="http://localhost:1313/2021/03/litany-against-fear/">Read More</a>
+      </div>
     </article>
   
     <article>
-      <h2><a href="http://localhost:1313/pages/references/">References</a></h2>
-      <p><p>References page...</p>
+      
+      <h2 class="summary">2021-03-08 <a href="http://localhost:1313/pages/references/">References</a></h2>
+      <div class="summary">
+	<p>References page...</p>
 <!-- wp:paragraph -->
-<p>"Fear is the mind killer" is a quote from Dune, by Frank Herbert.</p>
-<!-- /wp:paragraph -->
-<!-- wp:quote -->
-<blockquote class="wp-block-quote"><p>I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.</p><cite>-- Frank Herbert</cite></blockquote>
-<!-- /wp:quote -->
-<!-- wp:paragraph --></p>
-      <a href="http://localhost:1313/pages/references/">Read More</a>
+<p>"Fear is the mind killer" is a quote from Dune, by Frank …</p></!-->
+  	<a href="http://localhost:1313/pages/references/">Read More</a>
+      </div>
     </article>
   
   </div>
 
   </div>
 
-  
+
+  <aside class="sidebar">
+<h3>Archives</h3>
+
+<div class="sidebar">
+  <ul>
+    
+      <li>
+        <a href="http://localhost:1313/2022/04/feeling-afraid-is-acceptable/">Feeling afraid is acceptable</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/06/stupidity/">Stupidity</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/05/two-wolves/">Two Wolves</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/04/extremism/">Extremism</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/03/litany-against-fear/">Litany Against Fear</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/pages/references/">References</a>
+      </li>
+    
+  </ul>
+</div>
+
+</aside>
 </div>
 </div>
 

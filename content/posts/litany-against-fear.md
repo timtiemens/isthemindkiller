@@ -3,7 +3,7 @@ title: "Litany Against Fear"
 date: 2021-03-08T19:17:38Z
 draft: false
 categories: ["Uncategorized"]
-slug: "/2021/03/08/litany-against-fear/"
+slug: "/litany-against-fear/"
 ---
 
 <!-- wp:paragraph --><p>I must not fear.</p><!-- /wp:paragraph -->

@@ -3,7 +3,7 @@ title: "Extremism"
 date: 2021-04-05T20:42:56Z
 draft: false
 categories: ["Uncategorized"]
-slug: "/2021/04/05/extremism/"
+slug: "/extremism/"
 ---
 
 <!-- wp:paragraph -->

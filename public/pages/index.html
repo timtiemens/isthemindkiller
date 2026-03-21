@@ -16,10 +16,15 @@ body {
   margin:0;
   color:#333;
   line-height:1.7;
+  background-image: url("img/defaultbodybg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-.custom-background {
-    background-image: url("/img/defaultbodybg.jpg");
+.custom-background-wrong {
+    background-image: url("img/defaultbodybg.jpg");
     background-position: left top;
     background-size: auto;
     background-repeat: repeat;
@@ -32,7 +37,7 @@ h1,h2,h3,h4,h5 { font-family:'Merriweather', serif; }
 .container {
   max-width: {{ .Site.Params.containerWidth }};
   margin:0 auto;
-  padding:20px;
+  padding: 20px;
 }
 
 /* BUTTONS */
@@ -50,11 +55,23 @@ button, .btn {
   display:flex;
   gap:30px;
 }
+.custom-background, .sidebar {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
 .sidebar {
-  width:250px;
+    padding: 10px;
+}
+.summary {
+    padding: 10px;
 }
 .content-area {
-  flex:1;
+    flex:1;
+    background-image: url("/img/defaultbodybg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;    
 }
 
 /* HEADER */
@@ -109,7 +126,7 @@ nav ul { list-style:none; padding:0; margin:0; display:flex; gap:20px; }
 
   <div class="content-area">
     
-<h1>Pages</h1>
+<h1>This is default/list Pages</h1>
 <ul>
 
 <li><a href="/pages/references/">References</a></li>
@@ -118,7 +135,41 @@ nav ul { list-style:none; padding:0; margin:0; display:flex; gap:20px; }
 
   </div>
 
-  
+
+  <aside class="sidebar">
+<h3>Archives</h3>
+
+<div class="sidebar">
+  <ul>
+    
+      <li>
+        <a href="http://localhost:1313/2022/04/feeling-afraid-is-acceptable/">Feeling afraid is acceptable</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/06/stupidity/">Stupidity</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/05/two-wolves/">Two Wolves</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/04/extremism/">Extremism</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/2021/03/litany-against-fear/">Litany Against Fear</a>
+      </li>
+    
+      <li>
+        <a href="http://localhost:1313/pages/references/">References</a>
+      </li>
+    
+  </ul>
+</div>
+
+</aside>
 </div>
 </div>
 

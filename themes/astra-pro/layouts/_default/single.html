@@ -1,7 +1,8 @@
 
 {{ define "main" }}
-<article>
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<article class="content-area">
+  {{ $format := "2006-01-02" }}
+  <h1>{{ .Date.Format $format }} {{ .Title }}</h1>
+  {{ .Content }}
 </article>
 {{ end }}

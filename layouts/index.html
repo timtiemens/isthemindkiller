@@ -1,10 +1,14 @@
+
 {{ define "main" }}
   <div class="custom-background">
   {{ range .Site.RegularPages }}
     <article>
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p>{{ .Content }}</p>
-      <a href="{{ .Permalink }}">Read More</a>
+      {{ $format := "2006-01-02" }}
+      <h2 class="summary">{{ .Date.Format $format }} <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="summary">
+	{{ .Summary | strings.Truncate 80 }}
+  	<a href="{{ .Permalink }}">Read More</a>
+      </div>
     </article>
   {{ end }}
   </div>

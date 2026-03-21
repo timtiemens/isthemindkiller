@@ -3,7 +3,7 @@ title: "Feeling afraid is acceptable"
 date: 2022-04-09T00:32:25Z
 draft: false
 categories: ["Uncategorized"]
-slug: "/2022/04/09/feeling-afraid-is-acceptable/"
+slug: "/feeling-afraid-is-acceptable/"
 ---
 
 <blockquote>Feeing afraid is acceptable,

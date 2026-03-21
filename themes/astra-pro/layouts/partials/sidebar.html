@@ -1,3 +1,13 @@
 
-<h3>Sidebar</h3>
-<p>Put widgets here.</p>
+<h3>Archives</h3>
+
+<div class="sidebar">
+  <ul>
+    {{ range first 10 .Site.RegularPages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
