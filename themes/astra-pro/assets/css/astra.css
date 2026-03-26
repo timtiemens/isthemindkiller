@@ -10,7 +10,7 @@ body {
   margin:0;
   color:#333;
   line-height:1.7;
-  background-image: url("img/defaultbodybg.jpg");
+  background-image: url("/img/defaultbodybg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -50,7 +50,7 @@ button, .btn {
   gap:30px;
 }
 .custom-background, .sidebar {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 .sidebar {
@@ -59,14 +59,19 @@ button, .btn {
 .summary {
     padding: 10px;
 }
+/*
 .content-area {
     flex:1;
+    color: white;
+    padding: 10px;
     background-image: url("/img/defaultbodybg.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;    
 }
+*/
 
 /* HEADER */
 header {

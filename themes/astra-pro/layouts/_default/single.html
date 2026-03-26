@@ -1,8 +1,12 @@
 
 {{ define "main" }}
-<article class="content-area">
-  {{ $format := "2006-01-02" }}
-  <h1>{{ .Date.Format $format }} {{ .Title }}</h1>
-  {{ .Content }}
-</article>
+<div class="custom-background">
+  <article>
+    {{ $format := "2006-01-02" }}
+    <h2 class="summary">{{ .Date.Format $format }} <a href="{{ .Permalink | relURL }}">{{ .Title }}</a></h2>
+    <div class="summary">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
 {{ end }}
