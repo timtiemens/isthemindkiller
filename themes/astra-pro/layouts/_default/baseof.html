@@ -14,7 +14,8 @@
     {{ if eq .Site.Params.sidebar "left" }}<aside class="sidebar">{{ partial "sidebar.html" . }}</aside>{{ end }}
 
     {{ block "main" . }}{{ end }}
-      
+
+
     {{ if eq .Site.Params.sidebar "right" }}<aside class="sidebar">{{ partial "sidebar.html" . }}</aside>{{ end }}
   </div>
 </div>

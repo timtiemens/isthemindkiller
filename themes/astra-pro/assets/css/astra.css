@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
 }
 
+/*
 .custom-background-wrong {
     background-image: url("img/defaultbodybg.jpg");
     background-position: left top;
@@ -24,7 +25,7 @@ body {
     background-repeat: repeat;
     background-attachment: scroll
 }
-
+*/
 
 h1,h2,h3,h4,h5 { font-family:'Merriweather', serif; }
 
@@ -52,6 +53,7 @@ button, .btn {
 .custom-background, .sidebar {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+/*  width: 200px; */
 }
 .sidebar {
     padding: 10px;
