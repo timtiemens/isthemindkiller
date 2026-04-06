@@ -10,7 +10,7 @@ body {
   margin:0;
   color:#333;
   line-height:1.7;
-  background-image: url("/img/defaultbodybg.jpg");
+  background-image: url("/img/defaultbodybg.jpg"), url("img/defaultbodybg.jpg");;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
