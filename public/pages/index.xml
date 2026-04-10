@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Fear Is The Mind Killer</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>https://fear.isthemindkiller.com/pages/</link>
     <description>Recent content in Pages on Fear Is The Mind Killer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Mar 2021 18:10:26 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fear.isthemindkiller.com/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>References</title>
-      <link>http://localhost:1313/pages/references/</link>
+      <link>https://fear.isthemindkiller.com/pages/references/</link>
       <pubDate>Mon, 08 Mar 2021 18:10:26 +0000</pubDate>
-      <guid>http://localhost:1313/pages/references/</guid>
+      <guid>https://fear.isthemindkiller.com/pages/references/</guid>
       <description>&lt;p&gt;References page...&lt;/p&gt;&#xA;&lt;!-- wp:paragraph --&gt;&#xA;&lt;p&gt;&#34;Fear is the mind killer&#34; is a quote from Dune, by Frank Herbert.&lt;/p&gt;&#xA;&lt;!-- /wp:paragraph --&gt;&#xA;&lt;!-- wp:quote --&gt;&#xA;&lt;blockquote class=&#34;wp-block-quote&#34;&gt;&lt;p&gt;I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain.&lt;/p&gt;</description>
     </item>
   </channel>
